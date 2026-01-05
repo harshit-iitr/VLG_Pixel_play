@@ -1,0 +1,21 @@
+# Core Data & Math
+numpy
+pandas
+matplotlib
+scikit-learn
+
+# Computer Vision
+opencv-python
+tqdm
+Pillow
+
+# Deep Learning Frameworks
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Specific Libraries for VAD & Object Detection
+ultralytics
+anomalib
+
+# Utilities (Optional but recommended for Jupyter/Colab)
+ipykernel
