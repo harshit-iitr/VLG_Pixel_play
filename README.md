@@ -77,8 +77,8 @@ Navigate to the cloned folder and install the required libraries:
 Step 3: ⚠️ CRITICAL: Path Configuration
 
 1. Copy or Import the codes and notebook from /VLG_Pixel_play/Final_Codes you want to run.
-2. Before running, check all the paths to models and files. 
-3. The ready to use trained models weights are stored in /VLG_Pixel_play/Final_Codes/Final_models
+2. Before running, check all the paths to models and files. Some paths might conflict because I ran in kaggle/working but cloning a repo in kaggle changes working directory.
+3. The ready to use trained models weights are stored in /VLG_Pixel_play/Final_Codes/Final_models. Use them to save training time.
 
 
 Step 4: Reproducing the Result
