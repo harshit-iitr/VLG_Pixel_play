@@ -52,6 +52,7 @@ The repository is organized to separate production-ready code from research expe
 │
 ├── visuals/                 # 📊 Graphs, Loss Curves, and Architecture Diagrams
 │
+|-- submission_quad_essemble.csv #The final submission file
 ├── requirements.txt         # Dependencies
 └── README.md                # Project Documentation
 ```
