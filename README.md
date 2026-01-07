@@ -57,7 +57,7 @@ The repository is organized to separate production-ready code from research expe
 ```
 🚀 Installation & Usage (Kaggle Workflow)
 
-This repository is designed to be fully reproducible within a Kaggle Notebook environment.
+This repository is designed to be fully reproducible within a Kaggle Notebook environment. 
 
 Step 1: Environment Setup
 
@@ -73,19 +73,19 @@ Navigate to the cloned folder and install the required libraries:
 %cd VLG-Pixel-Play-VAD
 !pip install -r requirements.txt
 ```
-
-Step 3: ⚠️ CRITICAL: Path Configuration
-
-1. Copy or Import the codes and notebook from /VLG_Pixel_play/Final_Codes you want to run.
-2. Before running, check all the paths to models and files. Some paths might conflict because I ran in kaggle/working but cloning a repo in kaggle changes working directory.
-3. The ready to use trained models weights are stored in /VLG_Pixel_play/Final_Codes/Final_models. Use them to save training time.
-
+Step 3: Running Final Notebooks
+  1. All Notebooks are well commented and dubbuged and tested to work on cloned environment.
+  2. Import the required notebook with Pixel Play database on Kaggle.
+  3. If you want to train the model (could take 2-10 hrs), then change the model path in notebook testing cell.
+  4. Else use pretrained weights during testing.
+  5. Save the final submission file outputs (submission_boosted_{model name}) and use it for next step
 
 Step 4: Reproducing the Result
 
 To generate the final 72% AP submission:
 
 Generate Individual Scores: Run the notebooks in Final_codes/Final_models/ to generate the prediction CSV for each of the 4 models.
+Else use the already generated files by just running essemble code:
 
 Run the Enssemble:
 ```
